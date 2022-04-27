@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main(){
 	// konversi tiper data (1)
 	var nilai32 int32 = 100000
 	var nilai64 int64 = int64(nilai32)
