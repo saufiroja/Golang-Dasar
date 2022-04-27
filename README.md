@@ -58,3 +58,12 @@
 | -------- | ------- | ----- |
 | !        | true    | false |
 | !        | false   | true  |
+
+## Membuat slice dari array
+
+| Membuat slice   | keterangan                                                             |
+| --------------- | ---------------------------------------------------------------------- |
+| array[low:high] | Membuat slice dari array dimulai index low sampai index sebelum akhir  |
+| array[low:]     | Membuat slice dari array dimulai index low sampai index akhir di array |
+| array[:high]    | Membuat slice dari array dimulai index 0 sampai index sebelum akhir    |
+| array[:]        | Membuat slice dari array dimulai index 0 sampai index akhir di array   |
