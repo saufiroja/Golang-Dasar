@@ -33,3 +33,28 @@
 | rune      | int32          |
 | int       | Minimal int32  |
 | uint      | Minimal uint32 |
+
+## Operasi && (Dan)
+
+| Nilai 1 | Operator | Nilai 2 | Hasil |
+| ------- | -------- | ------- | ----- |
+| true    | &&       | true    | true  |
+| true    | &&       | false   | false |
+| false   | &&       | true    | false |
+| false   | &&       | false   | false |
+
+## Operasi || (Atau)
+
+| Nilai 1 | Operator | Nilai 2 | Hasil |
+| ------- | -------- | ------- | ----- |
+| true    | atau     | true    | true  |
+| true    | atau     | false   | true  |
+| false   | atau     | true    | true  |
+| false   | atau     | false   | false |
+
+## Operasi !
+
+| Operator | Nilai 2 | Hasil |
+| -------- | ------- | ----- |
+| !        | true    | false |
+| !        | false   | true  |
