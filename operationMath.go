@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	// Operation math
 	var a = 10
 	var b = 10

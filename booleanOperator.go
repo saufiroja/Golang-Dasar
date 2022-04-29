@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var nilai = 90
 	var absensi = 80
 
