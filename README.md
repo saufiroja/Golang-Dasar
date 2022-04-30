@@ -67,3 +67,8 @@
 | array[low:]     | Membuat slice dari array dimulai index low sampai index akhir di array |
 | array[:high]    | Membuat slice dari array dimulai index 0 sampai index sebelum akhir    |
 | array[:]        | Membuat slice dari array dimulai index 0 sampai index akhir di array   |
+
+## Operator Pointer
+
+- (&dan) adalah untuk membuat sebuah variable dengan nilai pointer ke varibale yang lain, kita bisa menggunakan operator (&dan) diikuti dengan nama variable nya
+- (*bintang) adalah jika kita ingin mengubah seluruh varibale yang mengacu pada data tersebut, kita bisa menggunakan operator (*bintang)
