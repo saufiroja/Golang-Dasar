@@ -7,7 +7,7 @@ func main() {
 	fmt.Println(kosong)
 }
 
-func Ups(i int) interface{} { // bisa gunakan any
+func Ups(i int) interface{} { // interface {} bisa di ganti dengan any
 	if i == 1 {
 		return 1
 	} else if i == 2 {
